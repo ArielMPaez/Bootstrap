@@ -151,7 +151,7 @@
 }
 
 @media(max-width: 466px) {
-    .thead1 {
+    .table {
         font-size: 20px;
     }
 }
