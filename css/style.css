@@ -151,8 +151,9 @@
 }
 
 @media(max-width: 466px) {
-    .table {
-        font-size: 20px;
+    .tabla1 .thead1 tr th {
+        width: auto;
+        font-size: 15px;
     }
 }
 
