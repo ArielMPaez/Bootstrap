@@ -1,4 +1,6 @@
 
+/*Barra Navegacio */
+
 .navbar  {
     background-color: #191792;
 }
@@ -145,6 +147,10 @@
     .card-img-top2 {
         width: 80%;
         height: auto;
+    }
+    .thead1 {
+        display: flex;
+        flex-direction: column;
     }
 }
 
