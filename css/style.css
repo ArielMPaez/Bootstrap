@@ -92,7 +92,7 @@
     height: 45rem;
     overflow: hidden;
     
-}
+} 
 
 #carouselExampleFade img {
     width: 100%;
@@ -100,6 +100,48 @@
     
 }
 
+
+
+@media (max-width: 1137px) {
+    #carouselExampleFade {
+        height: 40%;
+
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width: 1014px) {
+    #carouselExampleFade {
+        height: 40%;
+
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    .contenedor .text__movimiento .text__li {
+    margin-top: -200%;
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1014px) {
+    #carouselExampleFade {
+        height: 40%;
+
+    }
+    h1 {
+        font-size: 1.3rem;
+        margin-left: 0px;
+    }
+    .contenedor .text__movimiento .text__li {
+    margin-top: -200%;
+    animation: cambiar none;
+    
+    }
+}
 
 
 /* FOOTER */
